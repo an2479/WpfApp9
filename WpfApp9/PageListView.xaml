@@ -9,12 +9,40 @@
       Title="PageListView">
 
     <Grid>
-        <ListView Name="Lv">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="12*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ListView Name="Lv1" Grid.Row="1">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Tickets Bought:" Width="150"/>
                 </GridView>
             </ListView.View>
         </ListView>
+        <ListView Name="Lv2" Grid.Column="1" Grid.Row="1">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Date:" Width="150"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock FontSize="15">
+        <Hyperlink Click="PPics" >PagePics</Hyperlink>
+            </TextBlock>
+            <TextBlock Text=" | "/>
+            <TextBlock FontSize="15">
+        <Hyperlink Click="PCalender" >PageCalender</Hyperlink>
+            </TextBlock>
+            <TextBlock Text=" | "/>
+            <TextBlock FontSize="15">
+        <Hyperlink Click="PText" >PageText</Hyperlink>
+            </TextBlock>
+        </StackPanel>
     </Grid>
 </Page>

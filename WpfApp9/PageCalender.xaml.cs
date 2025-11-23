@@ -25,22 +25,22 @@ namespace WpfApp9
             InitializeComponent();
         }
 
-        //private void PPics(object sender, RoutedEventArgs e)
-        //{
-        //    NavigationService nav = NavigationService.GetNavigationService(this);
-        //    nav.Navigate(new PagePics());
-        //}
+        private void PPics(object sender, RoutedEventArgs e)
+        {
+            NavigationService nav = NavigationService.GetNavigationService(this);
+            nav.Navigate(new PagePics());
+        }
 
-        //private void PListView(object sender, RoutedEventArgs e)
-        //{
-        //    NavigationService nav = NavigationService.GetNavigationService(this);
-        //    nav.Navigate(new PageListView());
-        //}
+        private void PListView(object sender, RoutedEventArgs e)
+        {
+            NavigationService nav = NavigationService.GetNavigationService(this);
+            nav.Navigate(new PageListView());
+        }
 
-        //private void PText(object sender, RoutedEventArgs e)
-        //{
-        //    NavigationService nav = NavigationService.GetNavigationService(this);
-        //    nav.Navigate(new PageText());
-        //}
+        private void PText(object sender, RoutedEventArgs e)
+        {
+            NavigationService nav = NavigationService.GetNavigationService(this);
+            nav.Navigate(new PageText());
+        }
     }
 }

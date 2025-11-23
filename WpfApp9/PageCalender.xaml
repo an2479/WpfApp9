@@ -17,7 +17,7 @@
             <Calendar SelectionMode="SingleDate" Foreground="AntiqueWhite" VerticalAlignment="Center"/>
         </Viewbox>
         <TextBlock Text="Choose a day to visit: " FontSize="50" FontWeight="ExtraLight" VerticalAlignment="Center" Foreground="Black"/>
-        <!--<StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Horizontal">
             <TextBlock FontSize="15">
                 <Hyperlink Click="PPics" >PagePics</Hyperlink>
             </TextBlock>
@@ -29,6 +29,6 @@
             <TextBlock FontSize="15">
                 <Hyperlink Click="PText" >PageText</Hyperlink>
             </TextBlock>
-        </StackPanel>-->
+        </StackPanel>
     </Grid>
 </Page>
