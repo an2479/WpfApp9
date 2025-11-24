@@ -14,7 +14,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <TextBlock Text="Welcome to our museum!" HorizontalAlignment="Center" FontSize="40" FontWeight="ExtraLight" Foreground="Black"/>
-        <Frame Grid.Row="1" Grid.RowSpan="2" x:Name="Frame" Source="PagePics.xmal" NavigationUIVisibility="Hidden"/>
+        <Frame Grid.Row="1" Grid.RowSpan="2" x:Name="Frame" Source="PagePics.xaml" NavigationUIVisibility="Hidden"/>
         <Button Content="Next" Width="70" HorizontalAlignment="Right" Height="50" Grid.Row="3"  Click="NextPage"/>
         <Button Content="Prev" Width="70" HorizontalAlignment="Left" Height="50" Grid.Row="3"  Click="PrevPage"/>
         <StackPanel Orientation="Horizontal">
