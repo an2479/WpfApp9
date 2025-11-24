@@ -16,24 +16,6 @@
         <TextBlock Text="Welcome to our museum!" HorizontalAlignment="Center" FontSize="40" FontWeight="ExtraLight" Foreground="Black"/>
         <Frame Grid.Row="1" Grid.RowSpan="2" x:Name="Frame" Source="PagePics.xaml" NavigationUIVisibility="Hidden"/>
         <Button Content="Next" Width="70" HorizontalAlignment="Right" Height="50" Grid.Row="3"  Click="NextPage"/>
-        <Button Content="Prev" Width="70" HorizontalAlignment="Left" Height="50" Grid.Row="3"  Click="PrevPage"/>
-        <StackPanel Orientation="Horizontal">
-            <TextBlock FontSize="15">
-                <Hyperlink Click="PPics" >PagePics</Hyperlink>
-            </TextBlock>
-                <TextBlock Text=" | "/>
-            <TextBlock FontSize="15">
-                <Hyperlink Click="PListView" >PageListView</Hyperlink>
-            </TextBlock>
-            <TextBlock Text=" | "/>
-            <TextBlock FontSize="15">
-                <Hyperlink Click="PCalander" >PageCalander</Hyperlink>
-            </TextBlock>
-            <TextBlock Text=" | "/>
-            <TextBlock FontSize="15">
-                <Hyperlink Click="PText" >PageText</Hyperlink>
-            </TextBlock>
-        </StackPanel>
-        
+        <Button Content="Prev" Width="70" HorizontalAlignment="Left" Height="50" Grid.Row="3"  Click="PrevPage"/>        
     </Grid>
 </Window>
