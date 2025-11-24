@@ -24,5 +24,23 @@ namespace WpfApp9
         {
             InitializeComponent();
         }
+
+        private void PPics(object sender, RoutedEventArgs e)
+        {
+            NavigationService nav = NavigationService.GetNavigationService(this);
+            nav.Navigate(new PagePics());
+        }
+
+        private void PListView(object sender, RoutedEventArgs e)
+        {
+            NavigationService nav = NavigationService.GetNavigationService(this);
+            nav.Navigate(new PageListView());
+        }
+
+        private void PCalander(object sender, RoutedEventArgs e)
+        {
+            NavigationService nav = NavigationService.GetNavigationService(this);
+            nav.Navigate(new PageCalender());
+        }
     }
 }
